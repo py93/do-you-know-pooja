@@ -90,3 +90,8 @@ console.log("\n", userName, ", your final score is: ", score);
 
 console.log("-----------------")
 
+console.log("High scores are: ")
+for(var i=0;i<highScores.length;i++)
+{
+  console.log(highScores[i].name, ": ", highScores[i].score);
+}
